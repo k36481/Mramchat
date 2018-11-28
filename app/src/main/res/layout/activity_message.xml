@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e8eaf6"
+    tools:context=".MessageActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:background="#ffcc80">
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:background="#e8eaf6"
+        android:layout_gravity="bottom"
+        android:id="@+id/tail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <EditText
+            android:textColor="#000000"
+            android:id="@+id/message_edit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:background="@null" />
+
+        <Button
+            android:background="#90caf9"
+            android:id="@+id/btnVoice"
+            android:layout_width="0dp"
+            android:layout_margin="3dp"
+            android:layout_height="40dp"
+            android:layout_weight="1.5"
+            android:text="Voice" />
+
+        <Button
+            android:layout_margin="3dp"
+            android:background="#90caf9"
+            android:id="@+id/sendBtn"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1.5"
+            android:text="Send" />
+
+    </LinearLayout>
+
+    <View
+        android:background="#ff80ab"
+        android:id="@+id/progress_voice"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+
+</LinearLayout>
+

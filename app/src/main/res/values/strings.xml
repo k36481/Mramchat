@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Mramchat</string>
+    <!-- Strings related to login -->
+    <string name="enter_talk">TALK</string>
+    <string name="prompt_username">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_out">Sign out</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <!--post -->
+    <string name="post_enter">POST</string>
+    <string name="post_body_example">예시 본문 \n두 번째 줄 \n세 번째 줄\n4 번째 줄\n5 번째 줄\n6 번째 줄\n7 번째 줄</string>
+</resources>

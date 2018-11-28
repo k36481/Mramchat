@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "441743273375",
+    "firebase_url": "https://mramchat-6d67d.firebaseio.com",
+    "project_id": "mramchat-6d67d",
+    "storage_bucket": "mramchat-6d67d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441743273375:android:a086d571220c26d3",
+        "android_client_info": {
+          "package_name": "com.satirev.kim.mramchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441743273375-tqlrrr0lnrd0kl8pf6t1a3kb2i62kb2v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.satirev.kim.mramchat",
+            "certificate_hash": "5fddd3834ed8561e7032996b762a9f0a70abe2cf"
+          }
+        },
+        {
+          "client_id": "441743273375-2ustuuvd3i4p4tv71i3929av31ltq6gh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-foe09_60E66uYIRZSN0fIeUkpSureTc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441743273375-2ustuuvd3i4p4tv71i3929av31ltq6gh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
